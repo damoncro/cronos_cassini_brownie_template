@@ -3,6 +3,14 @@
 ## Description
 A template to deploy/call smart contracts to Cronos Cassini using Brownie.
 
+## Installation
+You need to grab [Brownie](https://cronos.crypto.org/faucet) before using this project.
+``` sh
+pip3 install --user pipx
+python3 -m pipx ensurepath
+pipx install eth-brownie
+```
+
 ## How to use?
 1. Get TCRO from https://cronos.crypto.org/faucet
 2. Create `.env` file in the root directory of this template project
