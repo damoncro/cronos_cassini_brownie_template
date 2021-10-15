@@ -29,7 +29,7 @@ brownie networks add Ethereum cassini host=https://cronos-testnet-3.crypto.org:8
 brownie run scripts/deploy.py --network cassini # it would deploy to cassini testnet!
 ```
 
-6. Call `fund.py` to transfer TCRO to the contract we deployed in step 2. Modify the TCRO value in `fund.py` if you would like to.
+6. Call `fund.py` to transfer TCRO to the contract we deployed in last step. Modify the TCRO value in `fund.py` if you would like to.
 ``` sh
 brownie run scripts/fund.py --network cassini
 ```
