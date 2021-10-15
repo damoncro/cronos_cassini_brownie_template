@@ -1,7 +1,7 @@
 # cronos_cassini_brownie_template
 
 ## Description
-A template to deploy/call smart contracts to Cronos Cassini using Brownie.
+A template to deploy/call smart contracts on Cronos Cassini using Brownie.
 
 ## Installation
 You need to grab [Brownie](https://cronos.crypto.org/faucet) before using this project.
