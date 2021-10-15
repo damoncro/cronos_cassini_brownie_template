@@ -32,4 +32,5 @@ brownie run scripts/withdraw.py --network cassini
 ```
 
 ## How to deploy your smart contrats?
-Just add your solidy contracts in contract folder and modify the deploy.py in scripts folder.
+1. Just add your solidy contracts in contract folder and modify the deploy.py in scripts folder.
+2. Run `brownie run scripts/fund.py --network cassini`
